@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(156, 245, 245);
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.flexbox {
+    display: flex;
+    background-color: rgb(118, 230, 230);
+    width: 100%;
+}
+.flexbox div {
+    flex: 1 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.flexbox div img {
+    height: 250px;
+    background-color: rgb(118, 230, 230);
+    width: 100%;
+    max-width: 800px;
+}
+#barra {
+    width: 120px;
+    max-height: 2px;
+    background-color: black;
+}
+ .flexbox div .buttons {
+    display: grid;
+    max-width: 320px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+button {
+    max-width: 80px;
+    background-color: rgb(118, 230, 230);
+    border: solid 3px rgb(45, 115, 161);
+    max-width: 200px;
+    height: 50px;
+    border-radius: 2px;
+}
+.click_2 {
+    justify-self: end;
+    width: 100%;
+}
